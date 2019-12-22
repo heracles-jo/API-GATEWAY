@@ -1,2 +1,2 @@
 # API-GATEWAY
-Spring Cloud Base
+Spring Cloud Base(zuul)
