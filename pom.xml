@@ -11,7 +11,7 @@
 	<groupId>kr.co.heracles</groupId>
 	<artifactId>API-GATEWAY</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>API-GATEWAY</name>
+	<name>API-GATEWAY Project</name>
 	<packaging>pom</packaging>
 	<description>API-GATEWAY</description>
 

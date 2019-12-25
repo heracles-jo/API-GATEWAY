@@ -12,7 +12,7 @@
 	<groupId>kr.co.heracles</groupId>
 	<artifactId>eureka</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>eureka</name>
+	<name>Eureka Server</name>
 	<description>Eureka Server</description>
 
 	<dependencies>
