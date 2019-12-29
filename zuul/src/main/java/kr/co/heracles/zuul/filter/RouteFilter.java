@@ -36,7 +36,6 @@ public class RouteFilter extends ZuulFilter {
         try (InputStream inputStream = (InputStream) requestContext.get("requestEntity");){
             body = StreamUtils.copyToString(inputStream==null ? requestContext.getRequest().getInputStream() : inputStream, Charset.forName("UTF-8"));
         } catch (IOException e) {
-            throw new ZuulException(e);
             log.error("IOException e", e);
         }
 
