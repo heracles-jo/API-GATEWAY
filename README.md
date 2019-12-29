@@ -1,2 +1,4 @@
 # API-GATEWAY
-Spring Cloud Base(zuul)
+ZUUL
+Eureka
+Spring Boot Admin
