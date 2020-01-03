@@ -3,13 +3,11 @@ package kr.co.heracles.zuul.filter;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
-import com.sun.xml.internal.ws.client.ResponseContext;
 import kr.co.heracles.zuul.constant.Constant;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.StreamUtils;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.InputStream;
@@ -23,7 +21,7 @@ public class ErrorFilter extends ZuulFilter {
     @Override
     public boolean shouldFilter() {
         // TODO Auto-generated method stub
-        return true;
+        return Constant.FILTER_TYPE_ERROR_SHOULD_FILTER;
     }
 
     @Override
@@ -69,6 +67,6 @@ public class ErrorFilter extends ZuulFilter {
     @Override
     public int filterOrder() {
         // TODO Auto-generated method stub
-        return 1;
+        return Constant.FILTER_TYPE_ERROR_ORDER;
     }
 }
