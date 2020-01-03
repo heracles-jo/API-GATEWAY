@@ -1,6 +1,8 @@
 # API-GATEWAY
-ZUUL :
+### ZUUL
+port:9000
 
-Eureka :
+###### Eureka
+port:8080
 
-Spring Boot Admin :
+###### Spring Boot Admin

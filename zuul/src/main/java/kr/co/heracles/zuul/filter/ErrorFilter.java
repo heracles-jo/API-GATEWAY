@@ -51,7 +51,6 @@ public class ErrorFilter extends ZuulFilter {
         log.info("Response Status :[" + httpServletResponse.getStatus() + "]");
         log.info("Response Headers:[" + headerMap.toString() + "]");
         log.info("Response Body:[" + responseBody + "]");
-
         log.info("Request Body:[" + requestBody + "]");
         log.info("=============================================================");
 
